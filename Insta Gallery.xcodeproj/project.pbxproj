@@ -15,6 +15,7 @@
 		2940389321EE200100A40F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2940389221EE200100A40F37 /* Assets.xcassets */; };
 		2940389621EE200100A40F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2940389421EE200100A40F37 /* LaunchScreen.storyboard */; };
 		294038A121EE200200A40F37 /* Insta_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294038A021EE200200A40F37 /* Insta_GalleryTests.swift */; };
+		29BF241F21F0237E00E1AA8D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF241E21F0237E00E1AA8D /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2940389C21EE200200A40F37 /* Insta GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insta GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		294038A021EE200200A40F37 /* Insta_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insta_GalleryTests.swift; sourceTree = "<group>"; };
 		294038A221EE200200A40F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BF241E21F0237E00E1AA8D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				2940389421EE200100A40F37 /* LaunchScreen.storyboard */,
 				2940389721EE200100A40F37 /* Info.plist */,
 				2940388821EE200000A40F37 /* Insta_Gallery.xcdatamodeld */,
+				29BF241E21F0237E00E1AA8D /* Data.swift */,
 			);
 			path = "Insta Gallery";
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2940388A21EE200000A40F37 /* Insta_Gallery.xcdatamodeld in Sources */,
+				29BF241F21F0237E00E1AA8D /* Data.swift in Sources */,
 				2940388721EE200000A40F37 /* AppDelegate.swift in Sources */,
 				2940388C21EE200000A40F37 /* MasterViewController.swift in Sources */,
 				2940388E21EE200000A40F37 /* DetailViewController.swift in Sources */,
